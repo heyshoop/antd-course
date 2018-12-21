@@ -9,5 +9,8 @@ export default {
     routes: [{
         path: '/',
         component: './HelloWorld',
+    },{
+        path:'/demo',
+        component:'./Demo',
     }],
 };
