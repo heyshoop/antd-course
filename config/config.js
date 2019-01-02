@@ -29,11 +29,14 @@ export default {
             },{
                 path: 'puzzlecards',
                 component: './puzzlecards'
-            },
+            },{
+                path:'list',
+                component:'../page/list',
+            }
         ]
     }],
     proxy:{
-        '/test':{
+        '/dev':{
             target: 'http://114.116.89.193:8999',
             changeOrigin: true,
         },
