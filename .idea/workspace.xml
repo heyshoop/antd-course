@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36f93338-0387-4279-906c-65e62b7b924a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/util/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/puzzlecards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/puzzlecards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/puzzlecards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/puzzlecards.js" afterDir="false" />
-    </list>
+    <list default="true" id="36f93338-0387-4279-906c-65e62b7b924a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -30,7 +24,7 @@
         <counts>
           <entry key="gitignore" value="2" />
           <entry key="html" value="1" />
-          <entry key="js" value="40" />
+          <entry key="js" value="41" />
           <entry key="json" value="3" />
           <entry key="ts" value="1" />
         </counts>
@@ -39,7 +33,7 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="40" />
+          <entry key="JavaScript" value="41" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="TypeScript" value="1" />
         </counts>
@@ -47,16 +41,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="7" />
-          <entry key="js" value="2843" />
+          <entry key="js" value="2847" />
           <entry key="json" value="3" />
-          <entry key="txt" value="78" />
+          <entry key="txt" value="97" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="2843" />
-          <entry key="PLAIN_TEXT" value="85" />
+          <entry key="JavaScript" value="2847" />
+          <entry key="PLAIN_TEXT" value="104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -65,40 +59,6 @@
         </counts>
       </usages-collector>
     </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/page/puzzlecards.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/model/puzzlecards.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -124,6 +84,7 @@
         <option value="$PROJECT_DIR$/src/page/puzzlecards.js" />
         <option value="$PROJECT_DIR$/config/config.js" />
         <option value="$PROJECT_DIR$/src/model/puzzlecards.js" />
+        <option value="$PROJECT_DIR$/mock/puzzlecards.js" />
       </list>
     </option>
   </component>
@@ -286,7 +247,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35283000" />
+    <option name="totallyTimeSpent" value="37492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="733" y="23" width="1187" height="1177" extended-state="0" />
@@ -332,7 +293,8 @@
     <MESSAGE value="基于model的卡片组件" />
     <MESSAGE value="dva model" />
     <MESSAGE value="使用 dispatch 和 reducer 改变 dva model" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用 dispatch 和 reducer 改变 dva model" />
+    <MESSAGE value="在 model 中请求服务端数据&#10;使用本地服务解决跨域问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="在 model 中请求服务端数据&#10;使用本地服务解决跨域问题" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dist/index.html">
@@ -471,8 +433,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/puzzlecards.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="375">
+          <caret line="25" column="61" lean-forward="true" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
         </state>
       </provider>
     </entry>
